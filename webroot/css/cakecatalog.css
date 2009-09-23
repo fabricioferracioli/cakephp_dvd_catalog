@@ -1,0 +1,84 @@
+/*
+ * CAKECATALOG
+ * CSS 6/07/2008
+ */
+*							{ padding:0; margin:0;}
+body						{ text-align:center;}
+#wrapper-header				{ width:100%;}
+#wrapper-contents			{ width:100%;}
+#wrapper-footer				{ width:100%;}
+#header,
+#contents,
+#footer						{ width:1000px; margin:0 auto; text-align:left;}
+
+/* header */
+#header						{ height: 150px; }
+#header .logo h1			{ text-indent:-9999px; float:left; }
+#header .logo h2			{ text-indent:-9999px; float:left; }
+#header .filters			{ height: 150px; float:right;}
+#header .filters fieldset 	{ border:none; margin: 30px 0 0 0;}
+#header .filters fieldset select option { padding: 0 5px 0 0;}
+#header .filters fieldset .input { float:left; margin:0 5px 15px 0;}
+#header .filters fieldset #search { width: 250px;}
+#header .filters fieldset .buttons { float:right;}
+
+
+/* contents */
+#contents					{ padding: 0 0 20px 0;}
+.shelf						{ padding:20px 28px; margin:0 auto;}
+.dvd						{ width:100px; height:150px; float:left; margin:0 20px 0 0;}
+.dvd a						{ outline:none;}
+.dvd a img					{ border:0;}
+.dvd-last					{ margin:0;}
+.clear						{ clear:both;}
+
+
+/* view page */
+.view						{ padding: 15px 0; text-align:left; width:800px; margin: 0 auto;}
+.view img					{ float:right;}
+.view h2					{ font-size:16px; color:#fff; border-bottom: 1px solid #fff; padding:0 0 5px 0; margin:0 0 15px 0;}
+.view dl					{}
+.view dl dt					{ color:#ccc;}
+.view dl dd					{ margin:0 0 10px 0; color:#fff;}
+.view ul.actions			{ list-style-type:none;}
+
+
+/* genres index */
+.genres						{ padding:15px 0 0 0;}
+.genres h2					{ font-size:16px; color:#fff; border-bottom: 1px solid #fff; padding:0 0 5px 0; margin:0 0 15px 0;}
+
+
+/* footer */
+#footer						{ height: 250px; text-align:center;}
+#footer .box				{ width:230px; float:left; margin:15px 20px 0 0; text-align:left;}
+#footer .box h2				{ text-align:center; margin: 0 0 10px 0; width:230px; height:21px; line-height:21px;}
+#footer .box ol				{ margin:0 0 0 50px;}
+#footer .box ol a			{ text-decoration:none; font-size: 16px;}
+#footer .box ol a:hover		{ text-decoration:underline;}
+#footer .box-last			{ margin:15px 0 0 0;}
+#footer .top-rated h2		{}
+#footer .recently-added h2	{}
+#footer .top-genres h2		{}
+#footer .most-active h2		{}
+#footer .copyright			{ margin:20px auto; width:500px; height:32px; line-height:32px;}
+
+/* backgrounds & colour */
+body						{ background:#206ba4;}
+#wrapper-header 			{ background:url(../img/bg_header.png) repeat-x;}
+#wrapper-contents 			{ background:url(../img/bg_content.png);}
+#wrapper-footer 			{ background:url(../img/bg_footer.png) repeat-x #206ba4;}
+#header						{ background:url(../img/header.jpg) no-repeat;}
+#contents					{}
+#footer						{}
+.shelf						{ background:url(../img/shelf_bottom.png) bottom no-repeat;}
+.dvd						{ background:#333;}
+#footer .box h2				{ background:url(../img/bg_footer_heading.png) no-repeat; color:#fff;}
+#footer .box ol				{ color:#bbd9ee;}
+#footer .box ol a			{ color:#bbd9ee; }
+#footer .box ol a:hover		{ color:#bbd9ee;}
+#footer .copyright			{ background:url(../img/bg_footer_copyright.png) no-repeat;}
+
+/* typography */
+body						{ font-family:"Lucida Sans Unicode"; font-size:12px;}
+a							{ color:#fff; text-decoration:underline;}
+a:hover						{ text-decoration:none;}
